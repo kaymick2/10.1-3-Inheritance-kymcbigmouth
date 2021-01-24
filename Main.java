@@ -8,7 +8,7 @@ class Main {
     int random2 = rand2.nextInt(101) + 1;
     King bigboyclass = new King();
     System.out.println("\nYour numbers have been assigned to you automatically. We hate you.");
-    System.out.println("\nYour numbers are: "+random1+" and "+random2+ ".");
+    System.out.println("\nYour numbers are: " + random1 + " and " + random2 + ".");
     System.out.print("\nAdd them and you get ");
     bigboyclass.add1(random1, random2);
     System.out.println();
